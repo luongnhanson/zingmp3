@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #6a39af;
+    --text-color: #fff;
+    --hover-color: #fe63da;
+    --slider-color: #826399;
+    --btn-gold: #f8e71c;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+}
+
+.actives {
+    background-color: #542c75;
+    border-left: 3px solid var(--hover-color);
+}
+
+.activetional {
+    color: red !important;
+}
+
+.disabled {
+    color: #6f4b8a !important;
+    cursor: default !important;
+}
+
+.footer-like__icon--active {
+    color: var(--hover-color) !important;
+}
+
+
+.btn-gold {
+    background-color: var(--btn-gold);
+    color: #333 !important;
+}
+
+.slider {
+    background-color: #826399;
+}
